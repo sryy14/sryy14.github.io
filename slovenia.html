@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <title>Slovenia</title>
+    <link href="css/style.css" rel="stylesheet" />
   </head>
 
   <body>
@@ -10,33 +11,31 @@
       <h1>Slovenia</h1>
     </header>
 
-    <nav>
-      <ul>
-        <li><a href="#intro">Introduction</a></li>
-        <li><a href="#geo">Geography</a></li>
-        <li><a href="#ppl">People and Society</a></li>
-        <li><a href="#gov">Government</a></li>
-      </ul>
-    </nav>
-
-    <main>
+    <main class="grid">
       <section id="intro">
         <h2>Introduction</h2>
 
-        <p>The Slovene lands were part of the Austro-Hungarian Empire until the latter's dissolution at the end of World War I. In <time datetime="1918">1918</time>, the Slovenes joined the Serbs and Croats in forming a new multinational state, which was named Yugoslavia in <time datetime="1929">1929</time>.</p>
-        <p>After World War II, Slovenia was one of the republics in the restored Yugoslavia, which, though communist, soon distanced itself from the Soviet Union and spearheaded the Non-Aligned Movement. Dissatisfied with the exercise of power by the majority Serbs, the Slovenes succeeded in establishing their independence in <time datetime="1991">1991</time> after a short 10-day war.</p>
-        <p>Historical ties to Western Europe, a growing economy, and a stable democracy have assisted in Slovenia's postcommunist transition. Slovenia acceded to both NATO and the EU in the spring of <time datetime="2004">2004</time>; it joined the euro zone and the Schengen Area in <time datetime="2007">2007</time>.</p>
+          <p>The Slovene lands were part of the Austro-Hungarian Empire until the latter's dissolution at the end of World War I. In <time datetime="1918">1918</time>, the Slovenes joined the Serbs and Croats in forming a new multinational state, which was named Yugoslavia in <time datetime="1929">1929</time>.</p>
+          <p>After World War II, Slovenia was one of the republics in the restored Yugoslavia, which, though communist, soon distanced itself from the Soviet Union and spearheaded the Non-Aligned Movement. Dissatisfied with the exercise of power by the majority Serbs, the Slovenes succeeded in establishing their independence in <time datetime="1991">1991</time> after a short 10-day war.</p>
+          <p>Historical ties to Western Europe, a growing economy, and a stable democracy have assisted in Slovenia's postcommunist transition. Slovenia acceded to both NATO and the EU in the spring of <time datetime="2004">2004</time>; it joined the euro zone and the Schengen Area in <time datetime="2007">2007</time>.</p>
+            <figure>
+              <img src="images/slovenia-flag.png" alt="Slovenia Flag"/>
+              <figcaption>The Slovenian National Flag (Photo by: <a href="https://www.cia.gov/the-world-factbook/">CIA World Factbook</a>)</figcaption>
+            </figure>
       </section>
 
       <section id="geo">
         <h2>Geography</h2>
 
         <article>
+          <div class="mapref">
           <h3>Map References</h3>
+
           <figure>
-            <img src="slovenia-map.png" alt="Slovenia Map"/>
+            <img src="images/slovenia-map.png" alt="Slovenia Map" id="map"/>
             <figcaption>Slovenia map showing major population centers as well as parts of surrounding countries and the Gulf of Venice.(Photo by: <a href="https://www.cia.gov/the-world-factbook/">CIA World Factbook</a>)</figcaption>
           </figure>
+        </div>
         </article>
 
         <article>
@@ -53,106 +52,12 @@
             <li>Forests</li>
           </ul>
         </article>
-
-        <article>
-          <h3>Area</h3>
-
-          <table>
-            <caption>Area in Slovenia</caption>
-            <tr>
-              <th>Area</th>
-              <th><abbr title="square">sq</abbr> <abbr title="kilometers">km</abbr></th>
-            </tr>
-
-            <tr>
-              <td>Total</td>
-              <td>20,273</td>
-            </tr>
-
-            <tr>
-              <td>Land</td>
-              <td>20,151</td>
-            </tr>
-
-            <tr>
-              <td>Water</td>
-              <td>122</td>
-            </tr>
-          </table>
-        </article>
-      </section>
-
-      <section id="ppl">
-        <h2>People and Society</h2>
-
-        <article>
-          <h3>Population</h3>
-
-          <p> The population of Slovenia is 2,101,208 as of <time datetime="2022">2022</time>.</p>
-        </article>
-
-        <article>
-          <h3>Ethnic Groups</h3>
-
-          <p>The percent of different ethic groups and races in Slovenia consist of:</p>
-
-          <table>
-            <tr>
-              <th>Race</th>
-              <th><abbr title="percent">%</abbr></th>
-            </tr>
-
-            <tr>
-              <td>Slovene</td>
-              <td>83.1</td>
-            </tr>
-
-            <tr>
-              <td>Serb</td>
-              <td>2</td>
-            </tr>
-
-            <tr>
-              <td>Croat</td>
-              <td>1.8</td>
-            </tr>
-
-            <tr>
-              <td>Bosniak</td>
-              <td>1.1</td>
-            </tr>
-
-            <tr>
-              <td>Other</td>
-              <td>12</td>
-            </tr>
-          </table>
-        </article>
-
-        <article>
-          <h3>Religion</h3>
-
-          <p>The top Religions in Slovenia ranked <em>in order</em>:</p>
-
-          <ol>
-            <li>Catholic <strong>57.8%</strong></li>
-            <li>None <strong>10%</strong></li>
-            <li>Muslim <strong>2.4%</strong></li>
-            <li>Orthodox <strong>2.3%</strong></li>
-            <li>Other Christian <strong>1%</strong></li>
-          </ol>
-        </article>
       </section>
 
       <section id="gov">
         <h2>Government</h2>
 
-        <figure>
-          <img src="slovenia-flag.png" alt="Slovenia Flag"/>
-          <figcaption>The Slovenian National Flag (Photo by: <a href="https://www.cia.gov/the-world-factbook/">CIA World Factbook</a>)</figcaption>
-        </figure>
-
-        <article>
+        <article id = "description">
           <h3>Flag Description</h3>
 
           <p>The flag consists of three equal horizontal bands of white (top), blue, and red, derived from the medieval coat of arms of the Duchy of Carniola.</p>
@@ -160,19 +65,6 @@
           <p> Above the mountains are three six-pointed stars arranged in an inverted triangle, which are taken from the coat of arms of the Counts of Celje, the prominent Slovene dynastic house of the late 14th and early 15th centuries. This all appears in the upper hoist side of the flag centered on the white and blue bands.</p>
         </article>
 
-        <article>
-          <h3>Country Name</h3>
-
-          <p> The different verions used to name Slovenia:</p>
-
-          <ul>
-            <li><strong>conventional long form:</strong> Republic of Slovenia</li>
-            <li><strong>conventional short form:</strong> Slovenia</li>
-            <li><strong>local long form:</strong> Republika Slovenija</li>
-            <li><strong>local short form:</strong> Slovenija</li>
-            <li><strong>former:</strong> People's Republic of Slovenia, Socialist Republic of Slovenia</li>
-          </ul>
-        </article>
 
         <article>
           <h3>Government Type</h3>
