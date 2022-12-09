@@ -19,7 +19,9 @@ h1 {
 
 h2 {
   background-color: #fff;
-  width: 200px;
+  width: 300px;
+  text-align: center;
+  align-items:
 }
 
 h1,
@@ -63,13 +65,14 @@ figcaption {
   font-style: italic;
 }
 
-#intro {
+#about {
   background-color: #ddd;
   padding-top: 10px;
   padding-right: 10px;
   padding-bottom: 10px;
   padding-left: 10px;
   border-right: 5px solid #222;
+
   }
 
 .mapref{
@@ -77,7 +80,12 @@ figcaption {
   padding: 15px;
 }
 
-#gov {
+#sav {
+  padding-left: 35px;
+  background-color: rgb(240,233,91);
+}
+
+#me {
   background-color: rgb(240,233,91);
   padding: 10px;
   border-left: 5px solid #222;
@@ -85,7 +93,7 @@ figcaption {
 
 .grid{
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 900px;
   grid-row-gap:20px;
   grid-column-gap:20px;
