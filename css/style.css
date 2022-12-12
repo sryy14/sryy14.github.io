@@ -11,17 +11,16 @@ body {
 h1 {
   text-align: center;
   font-stretch: expanded;
-  background-color: rgb(41,104,175);
+  background-color: rgb(120,177,198);
   color: rgb(255,255,255);
   border: 5px double rgb(7,30,52);
 
 }
 
 h2 {
-  background-color: #fff;
-  width: 300px;
+  background-color: rgb(120,177,198);
   text-align: center;
-  align-items:
+
 }
 
 h1,
@@ -65,7 +64,7 @@ figcaption {
   font-style: italic;
 }
 
-#about {
+#social {
   background-color: #ddd;
   padding-top: 10px;
   padding-right: 10px;
@@ -81,12 +80,30 @@ figcaption {
 }
 
 #sav {
-  padding-left: 35px;
-  background-color: rgb(240,233,91);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+
+
+
+#bucket {
+  background-color: #ddd;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  border-right: 5px solid #222;
 }
 
-#me {
-  background-color: rgb(240,233,91);
+
+}
+
+#sm {
+  background-color: #ddd;
   padding: 10px;
   border-left: 5px solid #222;
 }
@@ -97,4 +114,60 @@ figcaption {
   grid-template-rows: 900px;
   grid-row-gap:20px;
   grid-column-gap:20px;
+}
+
+table {
+       border-style: ridge;
+       border-width: 20px;
+       border-color: rgb(120,177,198);
+       background-color: #d9d9d9;
+       width: 30px;
+     }
+     th {
+       border: 5px solid #095484;
+     }
+     td {
+       border: 20px groove #1c87c9;
+     }
+
+.topnav {
+    background-color: #fff;
+    overflow: hidden;
+    padding-right: 42px;
+    border:3px outset rgb(7,30,52);
+
+
+}
+
+.an {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skills {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.topnav a {
+  color: #4976b9;
+  display: block;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  color: rgb(195,16,36);
+  text-decoration: underline;
+}
+
+.topnav a.active {
+  color: rgb(253,185,86);
+}
+
+.topnav a.a:visited {
+  color: #4b195d;
 }
